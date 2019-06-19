@@ -1,0 +1,39 @@
+{
+  "name": "php-seed",
+  "description": "A quick start kit for PHP based website development with an optimised Gulp build process.",
+  "main": "",
+  "authors": ["Brion Mario"],
+  "license": "MIT",
+  "keywords": [
+    "php",
+    "html",
+    "gulp",
+    "css",
+    "sass",
+    "responsive",
+    "apareciumlabs",
+    "seed"
+  ],
+  "homepage": "https://github.com/brionmario/php-seed",
+  "private": true,
+  "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"],
+  "dependencies": {
+    "font-awesome": "~4.4.0",
+    "jquery": "^3.4.1",
+    "bootstrap": "^4.3.1"
+  },
+  "overrides": {
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css",
+        "fonts/fontawesome-webfont.eot",
+        "fonts/fontawesome-webfont.woff",
+        "fonts/fontawesome-webfont.ttf",
+        "fonts/fontawesome-webfont.svg"
+      ]
+    },
+    "bootstrap": {
+      "main": ["dist/css/bootstrap.min.css", "dist/js/bootstrap.min.js"]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.right-section {
+  height: $section-height;
+  background-color: $white !important;
+  .content {
+    padding: $right-section-content-padding;
+    .title {
+      color: $black;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      .logo {
+        height: 85px;
+        padding: 0 15px 10px 0;
+      }
+    }
+    .desc {
+      color: $dark-gray;
+    }
+    .email-subscription-container {
+      margin-top: 20px;
+      .email-input {
+        padding: 10px 15px;
+      }
+    }
+    .post-desc {
+      color: $dusty-gray;
+      font-size: 12px;
+    }
+  }
+}
+
+.left-section {
+  height: $section-height;
+  background-color: $white !important;
+  .aparecium-logo-container {
+    text-align: center;
+    svg {
+      width: 70%;
+      height: 70%;
+    }
+    .aparecium-logo.fox #Fox polygon {
+      opacity: 0.9;
+      transition: all 0.8s;
+      &:hover {
+        opacity: 0.8;
+        transition: all 0.1s;
+      }
+    }
+  }
+}

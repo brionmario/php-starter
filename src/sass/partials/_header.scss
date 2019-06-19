@@ -1,0 +1,15 @@
+.header {
+  background-color: $white !important;
+  border: none !important;
+  border-bottom: $header-border-bottom !important;
+  padding: $header-padding;
+  height: $header-height !important;
+  a {
+    background-color: $white !important;
+    border-color: $white !important;
+    box-shadow: none !important;
+    i {
+      font-size: 1.6rem;
+    }
+  }
+}
