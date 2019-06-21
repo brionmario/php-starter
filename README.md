@@ -96,6 +96,7 @@ Once the dev server is fired up, it'll automatically open up a new tab. If not, 
 ```
 php-seed/
  ├── coverage/                      * unit test coverage reports
+ ├── dev/                           * stores development build artifacts
  ├── dist                           * stores production build artifacts
  ├── docs/                          * contains documents and document resources
  ├── node_modules/                  * contains dependencies pulled from npm
@@ -110,7 +111,6 @@ php-seed/
  │   ├── composer-demo.php          * demo of the composer dependency management
  │   ├── demo.php                   * file containing the demo sorce code
  │   └── index.php                  * entry php file
- ├── temp/                          * stores development build artifacts
  ├── vendor/                        * packages pulled from composer will be stored here
  ├── .all-contributorsrc            * contains info ablout repo contributors
  ├── .babelrc                       * babel build config file
@@ -263,7 +263,7 @@ npm run lint:styles
 
 ### For Development
 
-Execute the following command to build your files in the development mode. A new folder called `temp` will be created and the artifacts will be saved there.
+Execute the following command to build your files in the development mode. A new folder called `dev` will be created and the artifacts will be saved there.
 
 ```bash
 npm run build:dev
@@ -311,6 +311,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for contributing guidelines and t
 <!-- prettier-ignore -->
 | [<img src="https://avatars3.githubusercontent.com/u/25959096?v=4" width="80px;"/><br /><sub><b>Brion Mario</b></sub>](http://www.brionmario.com/)<br />[💻](https://github.com/brionmario/php-seed/commits?author=brionmario "Code") [📖](https://github.com/brionmario/php-seed/commits?author=brionmario "Documentation") [🐛](https://github.com/brionmario/php-seed/issues?q=author%3Abrionmario "Bug reports") [⚠️](https://github.com/brionmario/php-seed/commits?author=brionmario "Tests") |
 | :---: |
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!

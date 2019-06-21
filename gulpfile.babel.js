@@ -75,14 +75,14 @@ const CONFIG = {
   },
   paths: {
     dev: {
-      root: 'temp',
-      scripts: 'temp/js',
-      styles: 'temp/css',
-      pages: 'temp/pages',
-      components: 'temp/components',
-      assets: 'temp/assets',
-      fonts: 'temp/assets/fonts',
-      composer: 'temp/vendor'
+      root: 'dev',
+      scripts: 'dev/js',
+      styles: 'dev/css',
+      pages: 'dev/pages',
+      components: 'dev/components',
+      assets: 'dev/assets',
+      fonts: 'dev/assets/fonts',
+      composer: 'dev/vendor'
     },
     src: {
       root: 'src',
@@ -94,7 +94,7 @@ const CONFIG = {
       assets: 'src/assets',
       fonts: 'src/assets/fonts',
       bower: 'src/bower_components',
-      composer: 'temp/vendor'
+      composer: 'src/vendor'
     },
     prod: {
       root: 'dist',
@@ -104,7 +104,7 @@ const CONFIG = {
       assets: 'dist/assets',
       fonts: 'dist/assets/fonts',
       components: 'dist/components',
-      composer: 'temp/vendor'
+      composer: 'dist/vendor'
     }
   },
   settings: {
@@ -131,11 +131,7 @@ gulp.task('scripts:build', () => {
       })
     )
     .pipe(gutil.env.env === 'production' ? gutil.noop() : sourcemaps.write())
-    .pipe(
-      gutil.env.env === 'production'
-        ? concat(CONFIG.filenames.prod.scripts)
-        : concat(CONFIG.filenames.dev.scripts)
-    )
+    .pipe(gutil.env.env === 'production' ? concat(CONFIG.filenames.prod.scripts) : gutil.noop())
     .pipe(gutil.env.env === 'production' ? uglify() : gutil.noop())
     .pipe(
       gutil.env.env === 'production'
@@ -168,6 +164,7 @@ gulp.task('scripts:lint', () => {
 gulp.task('styles:build', () => {
   return gulp
     .src(`${CONFIG.paths.src.styles}/**/*.s+(a|c)ss`)
+    .pipe(gutil.env.env === 'production' ? gutil.noop() : sourcemaps.init())
     .pipe(
       sass({
         outputStyle: 'nested',
@@ -176,6 +173,7 @@ gulp.task('styles:build', () => {
         onError: console.error.bind(console, 'Sass error:')
       })
     )
+    .pipe(gutil.env.env === 'production' ? gutil.noop() : sourcemaps.write())
     .pipe(autoprefixer({ browsers: AUTO_PREFIX_BROWSERS }))
     .pipe(
       urlAdjuster({
