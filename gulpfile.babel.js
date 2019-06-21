@@ -75,14 +75,14 @@ const CONFIG = {
   },
   paths: {
     dev: {
-      root: 'temp',
-      scripts: 'temp/js',
-      styles: 'temp/css',
-      pages: 'temp/pages',
-      components: 'temp/components',
-      assets: 'temp/assets',
-      fonts: 'temp/assets/fonts',
-      composer: 'temp/vendor'
+      root: 'dev',
+      scripts: 'dev/js',
+      styles: 'dev/css',
+      pages: 'dev/pages',
+      components: 'dev/components',
+      assets: 'dev/assets',
+      fonts: 'dev/assets/fonts',
+      composer: 'dev/vendor'
     },
     src: {
       root: 'src',
@@ -94,7 +94,7 @@ const CONFIG = {
       assets: 'src/assets',
       fonts: 'src/assets/fonts',
       bower: 'src/bower_components',
-      composer: 'temp/vendor'
+      composer: 'src/vendor'
     },
     prod: {
       root: 'dist',
@@ -104,7 +104,7 @@ const CONFIG = {
       assets: 'dist/assets',
       fonts: 'dist/assets/fonts',
       components: 'dist/components',
-      composer: 'temp/vendor'
+      composer: 'dist/vendor'
     }
   },
   settings: {
