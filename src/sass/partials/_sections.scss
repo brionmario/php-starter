@@ -1,25 +1,30 @@
 .right-section {
-  height: $section-height;
-  background-color: $white !important;
+  float: right;
+  width: 50%;
+  position: relative;
+  padding: 0 60px;
+  .logo {
+    position: absolute;
+    top: 40px;
+    height: 60px;
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }
   .content {
     padding: $right-section-content-padding;
     .title {
       color: $black;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
       text-transform: uppercase;
-      .logo {
+      .gulp-logo {
         height: 85px;
         padding: 0 15px 10px 0;
       }
     }
     .desc {
       color: $dark-gray;
-    }
-    .email-subscription-container {
-      margin-top: 20px;
-      .email-input {
-        padding: 10px 15px;
-      }
     }
     .post-desc {
       color: $dusty-gray;
@@ -29,10 +34,14 @@
 }
 
 .left-section {
-  height: $section-height;
-  background-color: $white !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
   .aparecium-logo-container {
     text-align: center;
+    padding-top: 20vh;
     svg {
       width: 70%;
       height: 70%;

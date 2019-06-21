@@ -1,9 +1,14 @@
 .footer {
   text-align: center;
+  color: $white;
+  background: $footer-background;
   padding: $footer-padding;
   background-color: $white !important;
   border: none !important;
   border-top: $footer-border-top !important;
+  .footer-icons {
+    margin-bottom: unset;
+  }
   .footer-icons > li {
     > a {
       display: inline-block;
@@ -43,18 +48,20 @@
   }
   .copyright {
     font-size: $footer-copyright-font-size;
-    img {
-      position: absolute;
-    }
+    color: $white;
     p {
-      color: $black;
+      color: $white;
       display: inline-block;
+      margin-bottom: unset;
       &:first-child {
         margin-right: 5px;
       }
       &:last-child {
-        margin-left: 28px;
+        margin-left: 5px;
       }
+    }
+    .link {
+      color: $white;
     }
   }
 }
