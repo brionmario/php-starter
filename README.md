@@ -285,7 +285,7 @@ Click [here](https://php-seed.herokuapp.com/) to see the deployed app.
 
 <!-- Markdown snippet -->
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/brionmario/php-seed)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 # Built With
 
