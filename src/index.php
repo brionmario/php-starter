@@ -6,7 +6,7 @@
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="theme-color" content="#ffffff" />
     <meta name="author" content="Brion Silva" />
-    <title>PHP Seed by Aparecium Labs</title>
+    <title>PHP Starter by Aparecium Labs</title>
     <!-- Favicon Package -->
     <link
       rel="apple-touch-icon"
@@ -306,7 +306,7 @@
                 novalidate
               >
                 <div class="text-center mb-4">
-                  <img class="mb-4" src="assets/img/php-seed.svg" alt="" width="200" height="200">
+                  <img class="mb-4" src="assets/img/php-starter.svg" alt="" width="200" height="200">
                   <p>We<code> &hearts; </code> open-source and
                     always trying our best to contribute back to the community.
                     Please Subscribe to our newsletter to stay up to date with more

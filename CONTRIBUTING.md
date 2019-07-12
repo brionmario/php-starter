@@ -1,4 +1,4 @@
-# Contributing to PHP Seed
+# Contributing to PHP Starter
 
 As a contributor, here are the guidelines we would like you to follow:
 

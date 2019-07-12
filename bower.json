@@ -1,5 +1,5 @@
 {
-  "name": "php-seed",
+  "name": "php-starter",
   "description": "A quick start kit for PHP based website development with an optimised Gulp build process.",
   "main": "",
   "authors": ["Brion Mario"],
@@ -12,9 +12,10 @@
     "sass",
     "responsive",
     "apareciumlabs",
+    "starter",
     "seed"
   ],
-  "homepage": "https://github.com/brionmario/php-seed",
+  "homepage": "https://github.com/brionmario/php-starter",
   "private": true,
   "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"],
   "dependencies": {

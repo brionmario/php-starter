@@ -1,29 +1,29 @@
-<p align="center">
-    <img style="display:block;text-align:center" src="./docs/readme-resources/php-seed.svg" alt="logo-text" width="300" />
+<p align="left">
+    <img src="./docs/logo/php-starter.svg" alt="logo-text" width="200" />
     <br/>
-    <h1 align="center">PHP Seed</h1>
-    <p align="center" style="font-size: 1.2rem;">A quick start kit for PHP based website development with an optimised Gulp build process.</p>
+    <h1>PHP Starter</h1>
+    <p style="font-size: 1.2rem;">A quick start kit for PHP based website development with an optimised Gulp build process.</p>
 </p>
 
 <!-- Badges -->
-<p align="center">
-  <a href="https://travis-ci.org/brionmario/php-seed">
-    <img src="https://travis-ci.org/brionmario/php-seed.svg?branch=master" alt="Build Status" height="18">
+<p align="left">
+  <a href="https://travis-ci.org/brionmario/php-starter">
+    <img src="https://travis-ci.org/brionmario/php-starter.svg?branch=master" alt="Build Status" height="18">
   </a>
   <a href="#contributors">
     <img src="https://img.shields.io/badge/all_contributors-1-orange.svg" alt="All Contributors" height="18">
   </a>
-  <a href="https://david-dm.org/brionmario/php-seed">
-    <img src="https://david-dm.org/brionmario/php-seed/status.svg" alt="dependencies Status" height="18">
+  <a href="https://david-dm.org/brionmario/php-starter">
+    <img src="https://david-dm.org/brionmario/php-starter/status.svg" alt="dependencies Status" height="18">
   </a>
-  <a href="https://david-dm.org/brionmario/php-seed?type=dev">
-    <img src="https://david-dm.org/brionmario/php-seed/dev-status.svg" alt="devDependencies Status" height="18">
+  <a href="https://david-dm.org/brionmario/php-starter?type=dev">
+    <img src="https://david-dm.org/brionmario/php-starter/dev-status.svg" alt="devDependencies Status" height="18">
    </a>
   <a href="LICENSE.md">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" height="18">
   </a>
-  <a href="https://codecov.io/gh/brionmario/php-seed">
-  <img src="https://codecov.io/gh/brionmario/php-seed/branch/master/graph/badge.svg" />
+  <a href="https://codecov.io/gh/brionmario/php-starter">
+  <img src="https://codecov.io/gh/brionmario/php-starter/branch/master/graph/badge.svg" />
 </a>
 </p>
 
@@ -39,8 +39,8 @@ This repository could be used by anyone who's looking for a quick starter kit fo
 
 # Quick Links
 
-| [Demo](https://php-seed.herokuapp.com/) |
-| --------------------------------------- |
+| [Demo](https://php-starter-seed.herokuapp.com/) |
+| ----------------------------------------------- |
 
 
 # Quick start
@@ -54,10 +54,10 @@ This repository could be used by anyone who's looking for a quick starter kit fo
 ```bash
 # clone our repository
 # --depth 1 removes all but one .git commit history
-git clone --depth 1 https://github.com/brionmario/php-seed.git
+git clone --depth 1 https://github.com/brionmario/php-starter.git
 
 # change the directory
-cd php-seed
+cd php-starter
 
 # install the npm dependencies listed on package.json
 npm install
@@ -94,7 +94,7 @@ Once the dev server is fired up, it'll automatically open up a new tab. If not, 
 # File Structure
 
 ```
-php-seed/
+php-starter/
  ├── coverage/                      * unit test coverage reports
  ├── dev/                           * stores development build artifacts
  ├── dist                           * stores production build artifacts
@@ -165,7 +165,7 @@ In addition we've created `npm scripts` to run `gulp tasks` and `gulp` is instal
 ## Setting Up
 
 - `clone` the repository
-- `cd php-seed` to change the directory
+- `cd php-starter` to change the directory
 - `npm install` to install npm dependencies
 - `Composer install` to install composer dependencies
 
@@ -281,7 +281,7 @@ npm run build
 
 Deploy to [Heroku](https://www.heroku.com/) using this template with one single click. Heroku has an awesome free and it is extremely easy to use.
 
-Click [here](https://php-seed.herokuapp.com/) to see the deployed app.
+Click [here](https://php-starter-seed.herokuapp.com/) to see the deployed app.
 
 <!-- Markdown snippet -->
 
@@ -289,13 +289,27 @@ Click [here](https://php-seed.herokuapp.com/) to see the deployed app.
 
 # Built With
 
-<a href="https://getcomposer.org/"><img src="./docs/readme-resources/composer.svg" alt="Composer" height="30" /></a>&nbsp;&nbsp;
-<a href="http://php.net/"><img src="./docs/readme-resources/php.png" alt="npm" height="25" /></a>&nbsp;&nbsp;
-<a href="https://www.npmjs.com/"><img src="./docs/readme-resources/npm.svg" alt="npm" height="20" /></a>&nbsp;&nbsp;
-<a href="https://bower.io/"><img src="./docs/readme-resources/bower.svg" alt="bower" height="30" /></a>&nbsp;&nbsp;
-<a href="https://sass-lang.com/"><img src="./docs/readme-resources/sass.svg" alt="sass" height="30" /></a>&nbsp;&nbsp;
-<a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/"><img  src="./docs/readme-resources/boostrap.svg" alt="bootstrap" height="30" /></a>&nbsp;&nbsp;
-<a href="https://gulpjs.com/"><img style="display:inline-block;margin: 5px 10px" src="./docs/readme-resources/gulp.svg" alt="gulp" height="30" /></a>
+<a href="https://getcomposer.org/">
+  <img src="./docs/readme-resources/technologies/composer.svg" alt="Composer" height="30" />
+</a>&nbsp;&nbsp;
+<a href="http://php.net/">
+  <img src="./docs/readme-resources/technologies/php.png" alt="npm" height="25" />
+</a>&nbsp;&nbsp;
+<a href="https://www.npmjs.com/">
+  <img src="./docs/readme-resources/technologies/npm.svg" alt="npm" height="20" />
+</a>&nbsp;&nbsp;
+<a href="https://bower.io/">
+  <img src="./docs/readme-resources/technologies/bower.svg" alt="bower" height="30" />
+</a>&nbsp;&nbsp;
+<a href="https://sass-lang.com/">
+  <img src="./docs/readme-resources/technologies/sass.svg" alt="sass" height="30" />
+</a>&nbsp;&nbsp;
+<a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">
+  <img  src="./docs/readme-resources/technologies/boostrap.svg" alt="bootstrap" height="30" />
+</a>&nbsp;&nbsp;
+<a href="https://gulpjs.com/">
+  <img style="display:inline-block;margin: 5px 10px" src="./docs/readme-resources/technologies/gulp.svg" alt="gulp" height="30" />
+</a>
 
 # Changelog
 
@@ -309,7 +323,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for contributing guidelines and t
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars3.githubusercontent.com/u/25959096?v=4" width="80px;"/><br /><sub><b>Brion Mario</b></sub>](http://www.brionmario.com/)<br />[💻](https://github.com/brionmario/php-seed/commits?author=brionmario "Code") [📖](https://github.com/brionmario/php-seed/commits?author=brionmario "Documentation") [🐛](https://github.com/brionmario/php-seed/issues?q=author%3Abrionmario "Bug reports") [⚠️](https://github.com/brionmario/php-seed/commits?author=brionmario "Tests") |
+| [<img src="https://avatars3.githubusercontent.com/u/25959096?v=4" width="80px;"/><br /><sub><b>Brion Mario</b></sub>](http://www.brionmario.com/)<br />[💻](https://github.com/brionmario/php-starter/commits?author=brionmario "Code") [📖](https://github.com/brionmario/php-starter/commits?author=brionmario "Documentation") [🐛](https://github.com/brionmario/php-starter/issues?q=author%3Abrionmario "Bug reports") [⚠️](https://github.com/brionmario/php-starter/commits?author=brionmario "Tests") |
 | :---: |
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
