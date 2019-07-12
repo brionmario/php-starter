@@ -1,5 +1,5 @@
 <p align="left">
-    <img src="./docs/logo/php-starter.svg" alt="logo-text" width="300" />
+    <img src="./docs/logo/php-starter.svg" alt="logo-text" width="200" />
     <br/>
     <h1>PHP Starter</h1>
     <p style="font-size: 1.2rem;">A quick start kit for PHP based website development with an optimised Gulp build process.</p>
