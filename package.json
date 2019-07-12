@@ -1,12 +1,12 @@
 {
-  "title": "PHP Seed by Aparecium Labs",
-  "name": "php-seed",
+  "title": "PHP Starter by Aparecium Labs",
+  "name": "php-starter",
   "version": "0.1.0",
   "private": true,
   "description": "A quick start kit for PHP based website development with an optimised Gulp build process.",
-  "homepage": "https://github.com/brionmario/php-seed#README.md",
+  "homepage": "https://github.com/brionmario/php-starter#README.md",
   "bugs": {
-    "url": "https://github.com/brionmario/php-seed/issues",
+    "url": "https://github.com/brionmario/php-starter/issues",
     "email": "opensource@apareciumalabs.com"
   },
   "license": "MIT",
@@ -14,7 +14,7 @@
   "contributors": [
     {
       "name": "Brion Mario",
-      "email": "brion@apareciumlabs.com",
+      "email": "info@brionmario.com",
       "url": "https://github.com/brionmario"
     }
   ],
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brionmario/php-seed"
+    "url": "https://github.com/brionmario/php-starter"
   },
   "keywords": [
     "php",
@@ -34,6 +34,7 @@
     "sass",
     "responsive",
     "apareciumlabs",
+    "starter",
     "seed"
   ],
   "jest": {
@@ -98,7 +99,6 @@
     "gulp-util": "^3.0.8",
     "http-server": "^0.11.1",
     "main-bower-files": "^2.13.1",
-    "semver": "^5.5.1",
     "wiredep": "^4.0.0"
   },
   "devDependencies": {
@@ -106,6 +106,7 @@
     "codecov": "^3.1.0",
     "eslint": "^5.3.0",
     "eslint-config-airbnb": "^17.0.0",
-    "jest": "^23.5.0"
+    "jest": "^23.5.0",
+    "semver": "^5.5.1"
   }
 }

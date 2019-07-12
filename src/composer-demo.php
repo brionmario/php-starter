@@ -12,7 +12,7 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
   <meta name="author" content="Brion Silva">
-  <title>PHP Seed by Aparecium Labs</title>
+  <title>PHP Starter by Aparecium Labs</title>
   <!-- Favicon Package -->
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/favicon_package/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon_package/favicon-32x32.png">
@@ -35,7 +35,7 @@
         <div class="composer-demo text-center mt-5">
           <div class="heading">
             <img class="composer-logo mb-4" src="assets/img/composer.svg" height="300"/>
-            <h6 class="text-dark">This seed project incorporates the power of composer. Please visit <a href="https://packagist.org/" target="_blank">https://packagist.org/</a> to browse packages and simply add them to to the project.</h6>
+            <h6 class="text-dark">This starter project incorporates the power of composer. Please visit <a href="https://packagist.org/" target="_blank">https://packagist.org/</a> to browse packages and simply add them to to the project.</h6>
             <p>Following is a demonstration of the already included <span class="pre">faker</span> library. Press the generate button to generate a random word.</p>
           </div>
           <div class="faker-demo-container">
