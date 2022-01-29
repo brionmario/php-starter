@@ -13,12 +13,6 @@
   <a href="#contributors">
     <img src="https://img.shields.io/badge/all_contributors-1-orange.svg" alt="All Contributors" height="18">
   </a>
-  <a href="https://david-dm.org/brionmario/php-starter">
-    <img src="https://david-dm.org/brionmario/php-starter/status.svg" alt="dependencies Status" height="18">
-  </a>
-  <a href="https://david-dm.org/brionmario/php-starter?type=dev">
-    <img src="https://david-dm.org/brionmario/php-starter/dev-status.svg" alt="devDependencies Status" height="18">
-   </a>
   <a href="LICENSE.md">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" height="18">
   </a>
